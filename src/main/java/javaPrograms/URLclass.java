@@ -6,7 +6,7 @@ public class URLclass {
 
 	public static void main(String[] args) {
 		URL link= new URL();
-		System.out.println(link.getAllIds());
+		//System.out.println(link.getAllIds());
 	}
 
 }

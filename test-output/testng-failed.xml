@@ -1,30 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="com.TestComponents.Listeners"/>
-  </listeners>
-  <test thread-count="5" name="Submit order Test(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Frameworkstart.first.SubmitOrderTest">
+      <class name="trainingMO.day2.DDT">
         <methods>
+          <include name="setup"/>
           <include name="teardown"/>
-          <include name="carttotalcheck"/>
-          <include name="launchApplication"/>
-          <include name="submitorder"/>
+          <include name="test1" invocation-numbers="3"/>
         </methods>
-      </class> <!-- Frameworkstart.first.SubmitOrderTest -->
+      </class> <!-- trainingMO.day2.DDT -->
     </classes>
-  </test> <!-- Submit order Test(failed) -->
-  <test thread-count="5" name="Error validation Test(failed)">
-    <classes>
-      <class name="Frameworkstart.first.ErrorValidations">
-        <methods>
-          <include name="teardown"/>
-          <include name="launchApplication"/>
-          <include name="loginwithInvalid"/>
-        </methods>
-      </class> <!-- Frameworkstart.first.ErrorValidations -->
-    </classes>
-  </test> <!-- Error validation Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Frameworkstart.first.ErrorValidations">
+      <class name="trainingMO.day2.DDT">
         <methods>
+          <include name="setup"/>
           <include name="teardown"/>
-          <include name="launchApplication"/>
-          <include name="loginwithInvalid"/>
+          <include name="test1" invocation-numbers="3"/>
         </methods>
-      </class> <!-- Frameworkstart.first.ErrorValidations -->
+      </class> <!-- trainingMO.day2.DDT -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

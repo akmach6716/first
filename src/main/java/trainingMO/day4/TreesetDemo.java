@@ -21,5 +21,5 @@ public class TreesetDemo {
 	  //Maintains Insertion order ,maintains alphabetical ascending order
 	    System.out.println(ts1);
 	
-	
+
 	}}

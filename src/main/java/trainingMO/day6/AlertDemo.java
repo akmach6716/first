@@ -12,6 +12,8 @@ public class AlertDemo {
 		TargetLocator target=	driver.switchTo();
 		Alert alt=target.alert();
 	System.out.println(alt.getText());
+	
+	System.out.println("comments");
 		alt.accept();
 
 	}

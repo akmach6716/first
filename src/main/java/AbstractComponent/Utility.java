@@ -38,6 +38,6 @@ public class Utility { /*
 
 	public static void swithToWindowwithTitle()
 	{
-		By.user;
+	System.out.println("go to new window");
 	}
 }
